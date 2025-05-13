@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>SHOPLY | Cart</title>
+  <link rel="stylesheet" href="./index.css" />
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  />
+</head>
+<body>
+
+  <!-- Header -->
+  <section id="header">
+    <a href="./index.html"><img src="./project logo2.png" height="70" width="85" alt="Logo" /></a>
+    <div>
+      <ul id="navbar" type="none">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="shop.html">Shop</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="./about.html">About</a></li>
+        <li><a href="./contact.html">Contact</a></li>
+        <li><a class="active" href="cart.html" id="lg-bag"><i class="fa-solid fa-cart-shopping"></i></a></li>
+        <i id="close" class="fa-solid fa-xmark"></i>
+      </ul>
+    </div>
+  </section>
+
+  <div id="mobile">
+    <a href="cart.html"><i class="fa fa-shopping-bag"></i></a>
+    <i id="bar" class="fa fa-bars"></i>
+  </div>
+
+  <!-- Cart Section -->
+  <section class="cart-section section-p1">
+    <h2 class="section-title">Your Shopping Cart</h2>
+
+    <div class="cart-container">
+      <!-- Left: Cart Items -->
+      <div class="cart-items">
+        <div class="cart-card">
+          <img src="./zara.png" alt="Product Image" />
+          <div class="cart-details">
+            <h3>ZARA 100% LINEN SHIRT</h3>
+            <p class="price">₹ 4,350.00</p>
+            <div class="cart-actions">
+              <input type="number" value="1" min="1" />
+              <a href="#" class="remove-btn">Remove</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="cart-card">
+          <img src="./zara2sub4.png" alt="Product Image" />
+          <div class="cart-details">
+            <h3>ZARA SUMMER SHIRT</h3>
+            <p class="price">₹ 2990.00</p>
+            <div class="cart-actions">
+              <input type="number" value="1" min="1" />
+              <a href="#" class="remove-btn">Remove</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="cart-card">
+          <img src="./zara3sub2.png" alt="Product Image" />
+          <div class="cart-details">
+            <h3>ZARA TECHNICAL HOODED JACKET</h3>
+            <p class="price">₹ 7550.00</p>
+            <div class="cart-actions">
+              <input type="number" value="1" min="1" />
+              <a href="#" class="remove-btn">Remove</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Right: Summary -->
+      <div class="cart-summary">
+        <h3>Summary</h3>
+        <div class="summary-line"><span>Subtotal</span><span>₹14890</span></div>
+        <div class="summary-line"><span>Tax</span><span>₹150.00</span></div>
+        <div class="summary-line total"><span>Total Amount</span><span>₹15040.00</span></div>
+
+        <div class="coupon-section">
+          <label for="coupon-code">Have a Coupon?</label>
+          <input type="text" id="coupon-code" placeholder="Enter your coupon code" />
+          <button class="apply-coupon-btn">Apply</button>
+      </div>
+
+        <button class="checkout-btn">PLACE ORDER</button>
+      </div>
+    </div>
+  </section>
+
+<!-- Recommended Picks -->
+<section class="recommended-picks">
+  <h3>You might also like</h3>
+  <div class="scroll-container">
+    <div class="recommend-item">
+      <img src="./astro.png" alt="Recommended Product" />
+      <h3>H&M </h3>
+        <p>Loose Fit Vintage-look printed T-shirt<br><span>₹1199</span></p>
+    </div>
+    <div class="recommend-item">
+      <img src="./astro2.png" alt="Recommended Product" />
+      <h3>Bonkers Corner</h3>
+        <p>Navy Blue Signature Oversized T-shirt<br><span>₹799</span></p>
+    </div>
+    <div class="recommend-item">
+      <img src="./astro3.png" alt="Recommended Product" />
+      <h3>H&M</h3>
+      <p>Bottle Green Kid Cudi Oversized T-shirt<br><span>₹999</span></p>
+    </div>
+    <div class="recommend-item">
+      <img src="./astro4.png" alt="Recommended Product" />
+      <h3>Bonkers Corner</h3>
+      <p> Black Cargo Pants<br><span>₹1,799</span></p>
+    </div>
+    <div class="recommend-item">
+      <img src="./astro5.png" alt="Recommended Product" />
+      <h3>Adidas</h3>
+      <p>Adidas Sambas<br><span>₹10999</span></p>
+    </div>
+    <div class="recommend-item">
+      <img src="./astro6.png" alt="Recommended Product" />
+      <h3>Nike</h3>
+      <p>Nike Men Hoodie<br><span>₹2199</span></p>
+    </div>
+    <div class="recommend-item">
+      <img src="./astro7.png" alt="Recommended Product" />
+      <h3>Nike</h3>
+      <p>Men's Dri-FIT Fitness T-Shirt<br><span>₹1707</span></p>
+    </div>
+    <div class="recommend-item">
+      <img src="./astro8.png" alt="Recommended Product" />
+      <h3>Nike</h3>
+      <p>Jordan 1 Retro High OG<br><span>₹6495</span></p>
+    </div>
+    <div class="recommend-item">
+      <img src="./astro9.png" alt="Recommended Product" />
+      <h3>Nike</h3>
+      <p>Jordan 1 Retro Low OG Travis Scott Olive<br><span>₹88500</span></p>
+    </div>
+    <div class="recommend-item">
+      <img src="./astro10.png" alt="Recommended Product" />
+      <h3>H&M</h3>
+      <p>Regular Fit Textured shirt<br><span>₹1,299</span></p>
+    </div>
+    <div class="recommend-item">
+      <img src="./zara5.png" alt="Recommended Product" />
+      <h3>Adidas</h3>
+      <p>Adidas Originals Drop Bayern Munich<br><span>₹10999</span></p>
+    </div>
+    <div class="recommend-item">
+      <img src="./zara6.png" alt="Recommended Product" />
+      <h3>Adidas</h3>
+      <p>HYKE x adidas Originals 2016 Spring/Summer Collection<br><span>₹5399</span></p>
+    </div>
+    <div class="recommend-item">
+      <img src="./zara7.png" alt="Recommended Product" />
+      <h3>Puma</h3>
+      <p>PUMA x RCB 2025 Men's Official Match Jersey<br><span>₹4999</span></p>
+    </div>
+    <!-- Add more items as needed -->
+  </div>
+</section>
+
+
+  <!-- Contact Form Section -->
+  <section id="form-details" class="section-p1 contact-wrapper">
+    <div class="form-container">
+      <form action="">
+        <h2 class="form-heading">We’d love to hear from you</h2>
+        <p class="form-subtext">Send us a message and our team will respond quickly.</p>
+        <input type="text" placeholder="Your Name" required />
+        <input type="email" placeholder="Your Email" required />
+        <input type="text" placeholder="Subject" />
+        <textarea rows="6" placeholder="Your Message" required></textarea>
+        <button class="btn primary-btn">Send Message</button>
+      </form>
+    </div>
+  
+    <div class="contact-people">
+      <h3>Contact Our Team</h3>
+      <div class="contact-card">
+        <img src="./Johndoe.png" alt="John Doe" />
+        <div>
+          <h4>John Doe</h4>
+          <p>Marketing Manager</p>
+          <p>📞 +91 1234567890</p>
+          <p>📧 john@example.com</p>
+        </div>
+      </div>
+  
+      <div class="contact-card">
+        <img src="./jeansmith.png" alt="Jane Smith" />
+        <div>
+          <h4>Jane Smith</h4>
+          <p>Sales Executive</p>
+          <p>📞 +91 9876543210</p>
+          <p>📧 jane@example.com</p>
+        </div>
+      </div>
+  
+      <div class="contact-card">
+        <img src="./jeandoe.png" alt="Jean Doe" />
+        <div>
+          <h4>Jean Doe</h4>
+          <p>Support Lead</p>
+          <p>📞 +91 5556667777</p>
+          <p>📧 jean@example.com</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+
+  <footer class="section-p1">
+    <div class="col">
+        <img class="logo" src="./project logo2.png" alt="" height="70px" width="85px">
+        <h4>CONTACT</h4>
+        <p><strong>Address : </strong>MG Road, Church Street, Bengaluru-560010.</p>
+        <p><strong>Phone : </strong>(+91) 8976530900 / 9966451099</p>
+        <p><strong>Hours : </strong>9:00am - 7:00pm , Sun - Sat</p>
+        
+        <div class="follow">
+          <h4>Follow Us</h4>
+          <div>
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-x-twitter"></i>
+            <i class="fa-brands fa-whatsapp"></i>
+          </div>
+        </div>
+    </div>
+
+    <div class="col">
+      <h4>About Us</h4>
+      <a href="">Delivery Information</a>
+      <a href="">Privacy Policy</a>
+      <a href="">Terms & Conditions</a>
+      <a href="">Contact Us</a>
+    </div>
+
+    <div class="col">
+      <h4>My Account</h4>
+      <a href="">Sign In</a>
+      <a href="">View Cart</a>
+      <a href="">Track My Order</a>
+      <a href="">Help</a>
+    </div>
+
+    <div class="col-install">
+      <h4>Install</h4>
+      <p>from App Store or Google Play Store</p>
+
+      <div class="row">
+        <img height="70px" width="110px" src="./appstore3.png" alt="">
+        <img height="70px" width="110px" src="./googleplay.png" alt="">
+      </div>
+      <h4> Secured Payment Gateway</h4>
+      <img height="80px" width="180px" src="./securedpaymentgateway.png" alt="">
+    </div>
+    <div id="copy-right">
+      <p> © 2025,tech etc - HTML, CSS, JS Ecommerce Template</p> 
+   </div>
+  </footer>
+  <script src="index.js" defer></script>
+</body>
+</html>
