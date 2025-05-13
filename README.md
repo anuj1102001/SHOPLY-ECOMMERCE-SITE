@@ -1,6 +1,6 @@
 # 🛍️ SHOPLY - Fashion Retail Website
 
-**SHOPLY** is a modern and responsive fashion retail website built with HTML, CSS, and JavaScript. Inspired by top-tier design platforms like Nike.com, SHOPLY blends stylish visuals with clean code to deliver an engaging online shopping experience.
+**SHOPLY** is a modern and responsive fashion retail website built with HTML, CSS, and JavaScript. Inspired by top-tier design platforms , SHOPLY blends stylish visuals with clean code to deliver an engaging online shopping experience.
 
 ## 🌟 Features
 
