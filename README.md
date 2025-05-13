@@ -16,7 +16,7 @@
 
 - **HTML5**
 - **CSS3**
-- **JavaScript (Vanilla)**
+- **JavaScript**
 - **Font Awesome** (icons)
 - **Google Fonts** (page-specific typography)
 
@@ -26,10 +26,10 @@ To run this project locally:
 
 ```bash
 1. Clone the repository
-   git clone https://github.com/your-username/shoply-fashion-store.git
+   git clone https://github.com/anuj1102001/SHOPLY-ECOMMERCE-SITE.git
 
 2. Navigate to the project folder
-   cd shoply-fashion-store
+   cd SHOPLY-ECOMMERCE-SITE
 
 3. Open `index.html` in your browser
 📁 Folder Structure
