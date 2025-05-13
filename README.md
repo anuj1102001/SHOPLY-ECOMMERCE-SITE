@@ -20,12 +20,6 @@
 - **Font Awesome** (icons)
 - **Google Fonts** (page-specific typography)
 
-## 📸 Screenshots
-
-| Home Page | About Page | Cart Page | Contact Page |
-|----------|------------|-----------|---------------|
-| ![](./screenshots/home.png) | ![](./screenshots/about.png) | ![](./screenshots/cart.png) | ![](./screenshots/contact.png) |
-
 ## 🚀 Getting Started
 
 To run this project locally:
