@@ -21,11 +21,14 @@ if(close)
   const rightBtn = document.querySelector('.scroll-btn.right');
   const carousel = document.querySelector('.carousel-track');
 
-  leftBtn.addEventListener('click', () => {
-    carousel.scrollBy({ left: -200, behavior: 'smooth' });
-  });
+  // Only wire up the carousel on pages that have one.
+  if (leftBtn && rightBtn && carousel) {
+    leftBtn.addEventListener('click', () => {
+      carousel.scrollBy({ left: -200, behavior: 'smooth' });
+    });
 
-  rightBtn.addEventListener('click', () => {
-    carousel.scrollBy({ left: 200, behavior: 'smooth' });
-  });
+    rightBtn.addEventListener('click', () => {
+      carousel.scrollBy({ left: 200, behavior: 'smooth' });
+    });
+  }
 

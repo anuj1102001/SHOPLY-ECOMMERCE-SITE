@@ -1,58 +1,34 @@
-# 🛍️ SHOPLY - Fashion Retail Website
+# Shoply · fashion retail website
 
-**SHOPLY** is a modern and responsive fashion retail website built with HTML, CSS, and JavaScript. Inspired by top-tier design platforms , SHOPLY blends stylish visuals with clean code to deliver an engaging online shopping experience.
+A responsive, multi-page storefront for a fashion brand, built with plain HTML, CSS and JavaScript during my web development internship at Robowaves (February – May 2025).
 
-## 🌟 Features
+## Pages
 
-- 🎨 **Sleek UI/UX** – Minimalist and brand-focused design.
-- 📱 **Fully Responsive** – Mobile-friendly layout for all devices.
-- 🛒 **Product Sections** – Organized sections for shirts, t-shirts, shoes, and more.
-- 🧾 **Interactive Cart Page** – Compact and user-friendly cart layout.
-- 🙋‍♀️ **About Us & Contact Pages** – Cleanly styled and informative pages with embedded Google Maps.
-- 🎞️ **Hero Videos & Images** – Integrated MP4 video banners and branded imagery.
-- 📩 **Contact Form** – Simple message form with contact cards for team members.
+- **Home:** hero banner, feature highlights (free shipping, secure payment, easy returns, 24/7 support), featured products and a newsletter sign-up
+- **Shop:** a product grid with a video banner, plus product detail pages
+- **Cart:** a cart layout with quantities and totals
+- **About:** brand story with a video section
+- **Blog** and **Contact:** articles, a message form and team contact cards
 
-## 🔧 Technologies Used
+## How it's built
 
-- **HTML5**
-- **CSS3**
-- **JavaScript**
-- **Font Awesome** (icons)
-- **Google Fonts** (page-specific typography)
+- Semantic HTML pages sharing one stylesheet ([`index.css`](index.css)), with media queries for tablet and phone layouts
+- A collapsible mobile navigation menu in vanilla JavaScript ([`index.js`](index.js))
+- Font Awesome icons and Google Fonts
 
-## 🚀 Getting Started
+It's a front-end project: the cart and forms are layouts only, with no backend or checkout.
 
-To run this project locally:
+## Run it
 
 ```bash
-1. Clone the repository
-   git clone https://github.com/anuj1102001/SHOPLY-ECOMMERCE-SITE.git
+git clone https://github.com/anuj1102001/SHOPLY-ECOMMERCE-SITE.git
+cd SHOPLY-ECOMMERCE-SITE
+```
 
-2. Navigate to the project folder
-   cd SHOPLY-ECOMMERCE-SITE
+Then open `index.html` in a browser.
 
-3. Open `index.html` in your browser
-📁 Folder Structure
-bash
-Copy
-Edit
-/shoply-fashion-store
-│
-├── index.html
-├── about.html
-├── contact.html
-├── cart.html
-├── shop.html
-├── blog.html
-├── index.css
-├── index.js
-├── /images (logos, banners, product shots)
-├── /videos (hero section videos)
-└── /fonts
+## Tech
 
-📫 Contact
-Built by Anuj.M
+HTML5 · CSS3 · JavaScript · Font Awesome · Google Fonts
 
-GitHub: @anuj1102001
-
-Email: anujleo46@gmail.com
+<sub>Product photos and brand imagery are used for learning purposes only.</sub>
